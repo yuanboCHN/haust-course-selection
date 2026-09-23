@@ -1,0 +1,6 @@
+# Python 版本: 3.8+
+# 安装:  pip install -r requirements.txt
+# 如果你的 pip 走了失效代理导致连不上，用:
+#   pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple --proxy=""
+selenium>=4.10
+webdriver-manager>=4.0

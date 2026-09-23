@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# 运行时自动生成，含个人设置，不要提交
+settings.json
+
+# 临时 / 探测文件
+*.log
+_boot_*.log
+_probe.py
+_boot_*.out
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 虚拟环境
+.venv/
+venv/
+env/
