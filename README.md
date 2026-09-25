@@ -4,9 +4,7 @@
 
 ## 快速上手
 
-**省事版（Windows）：** 直接双击 **`run.bat`** —— 它会自动检测并安装依赖，然后启动程序。
 
-**手动版（等价，可选）：**
 ```bash
 # 1. 确认已装 Python 3.8+ 和 Microsoft Edge（Windows 一般自带）
 # 2. 安装依赖
@@ -20,7 +18,7 @@ python jwc_elect.py
 > pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple --proxy=""
 > ```
 
-**环境要求（就这 4 样）：** Python 3.8+ / Microsoft Edge / `selenium` / `webdriver-manager`。
+**环境要求：** Python 3.8+ / Microsoft Edge / `selenium` / `webdriver-manager`。
 程序会借助 `webdriver-manager` 自动下载与你 Edge 版本匹配的驱动，无需手动配置。
 
 
